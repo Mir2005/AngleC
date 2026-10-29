@@ -1,0 +1,25 @@
+AngleC — Required Python Libraries
+====================================
+
+Python version: 3.12
+
+Install the required libraries by running these commands in the terminal:
+
+1. NumPy
+   py -3.12 -m pip install numpy==1.26.4
+
+2. OpenCV
+   py -3.12 -m pip install opencv-python==4.9.0.80
+
+3. SciPy
+   py -3.12 -m pip install scipy==1.15.3
+
+4. Pillow
+   py -3.12 -m pip install Pillow
+
+5. Matplotlib
+   py -3.12 -m pip install matplotlib
+
+You may also install all libraries at once using:
+
+py -3.12 -m pip install numpy==1.26.4 opencv-python==4.9.0.80 scipy==1.15.3 Pillow matplotlib
