@@ -11,7 +11,7 @@ If Python is not installed:
 3. Open PowerShell and verify:
 
 ```powershell
-py -3.12 --version
+py -m --version
 ```
 
 ## 2. Install Required Libraries
@@ -19,25 +19,25 @@ py -3.12 --version
 Update pip:
 
 ```powershell
-py -3.12 -m pip install --upgrade pip
+py -m pip install --upgrade pip
 ```
 
 Install NumPy and OpenCV using the tested versions:
 
 ```powershell
-py -3.12 -m pip install "numpy==1.26.4" "opencv-python==4.9.0.80"
+py -m pip install "numpy==1.26.4" "opencv-python==4.9.0.80"
 ```
 
 Install the additional libraries:
 
 ```powershell
-py -3.12 -m pip install scipy pillow matplotlib
+py -m pip install scipy pillow matplotlib
 ```
 
 ## 3. Verify Installation
 
 ```powershell
-py -3.12 -c "import numpy, cv2, scipy; from PIL import Image; import matplotlib; print('NumPy:', numpy.__version__); print('OpenCV:', cv2.__version__); print('All imports successful')"
+py -m -c "import numpy, cv2, scipy; from PIL import Image; import matplotlib; print('NumPy:', numpy.__version__); print('OpenCV:', cv2.__version__); print('All imports successful')"
 ```
 
 ## 4. Run AngleC
@@ -70,7 +70,7 @@ Connect your webcam and follow the on-screen instructions.
 **NumPy/OpenCV import error:** Verify the installed versions:
 
 ```powershell
-py -3.12 -c "import numpy, cv2; print(numpy.__version__, cv2.__version__)"
+py -m -c "import numpy, cv2; print(numpy.__version__, cv2.__version__)"
 ```
 
 Expected: NumPy `1.26.4`, OpenCV `4.9.0`.
