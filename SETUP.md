@@ -37,7 +37,7 @@ py -m pip install scipy pillow matplotlib
 ## 3. Verify Installation
 
 ```powershell
-py -m -c "import numpy, cv2, scipy; from PIL import Image; import matplotlib; print('NumPy:', numpy.__version__); print('OpenCV:', cv2.__version__); print('All imports successful')"
+py -c "import numpy, cv2, scipy; from PIL import Image; import matplotlib; print('NumPy:', numpy.__version__); print('OpenCV:', cv2.__version__); print('All imports successful')"
 ```
 
 ## 4. Run AngleC
@@ -70,7 +70,7 @@ Connect your webcam and follow the on-screen instructions.
 **NumPy/OpenCV import error:** Verify the installed versions:
 
 ```powershell
-py -m -c "import numpy, cv2; print(numpy.__version__, cv2.__version__)"
+py -c "import numpy, cv2; print(numpy.__version__, cv2.__version__)"
 ```
 
 Expected: NumPy `1.26.4`, OpenCV `4.9.0`.
