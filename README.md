@@ -22,7 +22,7 @@ AngleC is a Python-based application for capturing live droplet images through a
 - Python 3.12
 - NumPy 1.26.4
 - OpenCV 4.9.0
-- Optional: SciPy, Pillow, and Matplotlib
+- Additional: SciPy, Pillow, and Matplotlib
 
 See [SETUP.md](SETUP.md) for installation instructions.
 
