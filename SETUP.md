@@ -2,16 +2,16 @@
 
 For Windows 10/11.
 
-## 1. Install Python 3.12
+## 1. Install Python
 
 If Python is not installed:
 
 1. Visit https://www.python.org/
-2. Install Python 3.12
+2. Install Python
 3. Open PowerShell and verify:
 
 ```powershell
-py -m --version
+py --version
 ```
 
 ## 2. Install Required Libraries
