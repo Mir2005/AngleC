@@ -29,5 +29,9 @@ See [SETUP.md](SETUP.md) for installation instructions.
 ### Limitations
 Point selection is manual; automatic droplet detection is not implemented. Lengths are reported in pixels without calibration. AngleC uses geometric fitting, not Young–Laplace fitting or automatic ADSA.
 
-**Version:** v1.0  
-**Developer:** Mir Md Minhaajuddin
+## Development Credit
+
+**Concept and system design:** Mir Md Minhaajuddin  
+**Coding assistance:** ChatGPT and Claude
+
+AngleC uses local image processing and does not require a paid API key or cloud service for its measurement workflow.
