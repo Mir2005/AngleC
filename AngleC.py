@@ -29,21 +29,14 @@ except ImportError:
 # ================================================================
 # Version      : v1.0
 #
-# Designed & Developed by:
-#   Mir Md Minhaajuddin
-#
-# Project of:
-#   MECHATRIX
+# Concept and system design: Mir Md Minhaajuddin
+# Coding assistance: ChatGPT and Claude
 #
 # Software:
 #   AngleC — Contact Angle Measurement & Analysis Software
 #
 # Hardware:
 #   MECHATRIX Model Alpha
-#
-# Development:
-#   Human-designed and AI-assisted software implementation
-#   (ChatGPT / Claude used as programming assistants)
 #
 # Copyright © 2026 Mir Md Minhaajuddin
 # ================================================================
@@ -71,13 +64,6 @@ except ImportError:
 #       - ask for a NEW name
 #       - return to live camera mode
 # 7. Press ESC at any time to stop the program. Q is also retained as a quit key.
-#
-# IMPORTANT:
-# - There is NO automatic droplet-surface detection.
-# - There is NO automatic baseline detection.
-# - There is NO px-to-mm input/calibration prompt.
-# - Base length is reported in pixels.
-# - The TXT file contains comma-separated CSV-style rows.
 #
 # Geometry colors:
 #   Yellow = user baseline
@@ -2151,5 +2137,6 @@ cv2.destroyAllWindows()
 print()
 print("Contact-angle measurement program closed.")
 print("Thank you for using MECHATRIX AngleC.")
-print("Designed & Developed by: Mir Md Minhaajuddin")
+print("Concept and system design: Mir Md Minhaajuddin")
+print("Coding assistance: ChatGPT and Claude")
 print("Copyright © 2026 Mir Md Minhaajuddin. All rights reserved.")
