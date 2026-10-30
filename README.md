@@ -27,7 +27,7 @@ AngleC is a Python-based application for capturing live droplet images through a
 See [SETUP.md](SETUP.md) for installation instructions.
 
 ### Limitations
-Point selection is manual; automatic droplet detection is not implemented. Lengths are reported in pixels without calibration. AngleC uses geometric fitting, not Young–Laplace fitting or automatic ADSA.
+Point selection is manual; automatic droplet detection is not implemented. Lengths are reported in pixels. AngleC uses geometric fitting, not Young–Laplace fitting or automatic ADSA.
 
 ## Development Credit
 
